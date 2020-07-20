@@ -1,3 +1,4 @@
+
 import os
 
 BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
@@ -6,7 +7,7 @@ SECRET_KEY = 'ed(qkw5sw=rlp=dvrqfg9ai+bc66vhjbh&95$-oww5bgo2@69f'
 
 DEBUG = False
 
-ALLOWED_HOSTS = ['127.0.0.1']
+ALLOWED_HOSTS = ['127.0.0.1', '345657-cg53124.tmweb.ru']
 
 
 INSTALLED_APPS = [
@@ -56,7 +57,7 @@ WSGI_APPLICATION = 'VK_OAuth2.wsgi.application'
 DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.postgresql_psycopg2',
-        'NAME': 'VK_Oauth2_DB',
+        'NAME': 'vk_oauth2_db',
         'USER': 'admin',
         'PASSWORD': 'admin',
         'HOST': '127.0.0.1',
@@ -105,5 +106,6 @@ USE_L10N = True
 
 USE_TZ = True
 
-STATIC_DIR = os.path.join(BASE_DIR, "static")
-STATICFILES_DIRS = [STATIC_DIR]
+STATIC_URL = '/static/'
+STATIC_ROOT = os.path.join(BASE_DIR, "static")
+
