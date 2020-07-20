@@ -2,11 +2,11 @@ import os
 
 BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 
-SECRET_KEY = 'ed(qkw5sw=rlp=dvrqfg9ai+bc66vf#0h&95$-oww5bgo2@69f'
+SECRET_KEY = 'ed(qkw5sw=rlp=dvrqfg9ai+bc66vhjbh&95$-oww5bgo2@69f'
 
-DEBUG = True
+DEBUG = False
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = ['127.0.0.1']
 
 
 INSTALLED_APPS = [
@@ -105,9 +105,5 @@ USE_L10N = True
 
 USE_TZ = True
 
-
-STATIC_URL = '/static/'
-
-STATICFILES_DIRS = [
-    os.path.join(BASE_DIR, "static"),
-]
+STATIC_DIR = os.path.join(BASE_DIR, "static")
+STATICFILES_DIRS = [STATIC_DIR]
