@@ -1,0 +1,15 @@
+body{
+    background-color: #F1F2F2;
+}
+
+#wrapper{
+    height: 100vh;
+}
+
+#friends_list{
+    list-style-type: none;
+}
+
+.avatar{
+    border-radius: 50%;
+}
