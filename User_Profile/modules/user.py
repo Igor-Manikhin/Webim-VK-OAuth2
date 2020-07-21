@@ -19,6 +19,5 @@ def get_user_info(request):
 
     if response['response']['count']:
         user_info['friends_list'] = response['response']['items']
-        return user_info
 
-    print('У вас нет добавленных друзей')
+    return user_info
