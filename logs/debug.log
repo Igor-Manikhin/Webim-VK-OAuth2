@@ -1,0 +1,14 @@
+[2020-07-21 12:00:53 +0300] [4412] [INFO] Starting gunicorn 20.0.4
+[2020-07-21 12:00:53 +0300] [4412] [INFO] Listening at: http://127.0.0.1:8000 (4412)
+[2020-07-21 12:00:53 +0300] [4412] [INFO] Using worker: sync
+[2020-07-21 12:00:53 +0300] [4415] [INFO] Booting worker with pid: 4415
+[2020-07-21 12:00:53 +0300] [4416] [INFO] Booting worker with pid: 4416
+[2020-07-21 12:30:59 +0300] [4412] [INFO] Handling signal: term
+[2020-07-21 09:30:59 +0000] [4415] [INFO] Worker exiting (pid: 4415)
+[2020-07-21 09:30:59 +0000] [4416] [INFO] Worker exiting (pid: 4416)
+[2020-07-21 12:31:00 +0300] [4412] [INFO] Shutting down: Master
+[2020-07-21 12:31:01 +0300] [4727] [INFO] Starting gunicorn 20.0.4
+[2020-07-21 12:31:01 +0300] [4727] [INFO] Listening at: http://127.0.0.1:8000 (4727)
+[2020-07-21 12:31:01 +0300] [4727] [INFO] Using worker: sync
+[2020-07-21 12:31:01 +0300] [4730] [INFO] Booting worker with pid: 4730
+[2020-07-21 12:31:01 +0300] [4731] [INFO] Booting worker with pid: 4731
